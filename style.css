@@ -5,3 +5,59 @@
 html {
   font-size: 10px;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1.6rem;
+  margin: 40;
+  padding: 20;
+  background-color: #dadada;
+  color: #333;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* gap: 20px; */
+  /* padding: 20px; */
+  border: .05rem solid black;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.grid-items {
+  background-color: white;
+  padding: 5px;
+  border: 0.1rem solid gray;
+  font-size: 2rem;
+}
+
+#box3, #box7, #box10, #box11, #box12, #box15 {
+  border-left: 0.5rem solid black;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box8, #box9, #box10, #box11 {
+  border-bottom: 0.5rem solid black;
+}
+
+.prompt {
+  /* position: absolute; */
+  top: 0%;
+  left: 0%;
+}
+
+.answer {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+.special {
+  border: none;
+  font-size: 2rem;
+}
+
+@media (min-width: 475px) {
+  * {
+    font-size: 16px;
+  }
+}
