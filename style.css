@@ -29,6 +29,7 @@ body {
   padding: 5px;
   border: 0.1rem solid gray;
   font-size: 2rem;
+  position: relative;
 }
 
 #box3, #box7, #box10, #box11, #box12, #box15 {
